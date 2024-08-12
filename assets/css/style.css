@@ -1,0 +1,657 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+a,
+.btn-default,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.urbanist {
+	font-family: "Urbanist", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+
+.descktop-one-sect {
+	background-image: url(../images/desktop.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	/* height: 100vh; */
+	opacity: 0.5;
+	background-color: black;
+}
+
+
+.descktop-one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 78px 24px;
+}
+
+
+
+.descktop-one h1 {
+	font-family: Urbanist;
+	font-size: 108px;
+	font-weight: 700;
+	line-height: 144px;
+	text-align: center;
+	color: white;
+}
+
+.descktop-one p {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	padding: 1px 0px 30px 2px;
+}
+
+.descktop-one a {
+	font-family: Urbanist;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: center;
+	background: white;
+	padding: 7px 40px;
+	color: black;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 30%;
+	margin: 5px 0px;
+}
+
+.descktop-one h6 {
+	font-family: Urbanist;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	padding: 43px 0px;
+}
+
+
+
+.login-btn button {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	background: white;
+	width: 85% !important;
+	padding: 10px 32px;
+	border-radius: 10px;
+	border: none;
+}
+
+
+.login-data h2 {
+	font-family: Urbanist;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 35px;
+	text-align: left;
+	color: white;
+	padding: 25px 0px;
+}
+
+.form-group input {
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	text-align: left;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #fffbff;
+	margin: 32px 0px;
+	/* color: #fffbff !important; */
+}
+
+
+.login-image {
+	text-align: center;
+}
+
+.login-image img {
+	width: 90%;
+}
+
+.login-page {
+	background-image: url(../images/form.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 41px 0px;
+	padding: 13px 24px;
+}
+
+
+
+.login-btn {
+	margin: 60px 0px;
+	/* width: 100% !important; */
+	text-align: center;
+}
+
+.login-data {
+	margin: 50px 0px;
+}
+
+.form-check label {
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-group input::placeholder {
+	color: white;
+}
+
+.candidate-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 25px;
+}
+
+.profile-data input {
+	border-bottom: 2px solid white;
+}
+
+.profile-name label {
+	font-family: Urbanist;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 40px;
+	text-align: left;
+	color: white;
+}
+
+.profile-name input {
+	font-family: Urbanist;
+	font-size: 15px;
+	font-weight: 500;
+	text-align: left;
+	background: transparent;
+	border: 0;
+	border-bottom: 4px solid white;
+
+}
+
+.profile-name input::placeholder {
+	color: white;
+}
+
+
+
+.vote-btn button {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	background: white;
+	width: 85% !important;
+	padding: 10px 32px;
+	border-radius: 10px;
+	border: none;
+}
+
+.vote-btn {
+	margin: 60px 0px;
+	/* width: 100% !important; */
+	text-align: center;
+}
+
+.student-profle {
+	padding: 10px 15px;
+}
+
+.profile-image img {
+	width: 68%;
+}
+
+
+.votes-number h4 {
+	font-family: Urbanist;
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 51px;
+	text-align: center;
+	color: white;
+}
+
+.student-votes {
+	display: flex;
+	align-items: center;
+	gap: 23px;
+	margin: 20px 32px;
+}
+
+
+.votes-number p {
+	font-family: Urbanist;
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+}
+
+
+
+.toltal-votes-image img {
+	width: 100%;
+}
+
+.candidate-votes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 23px;
+}
+
+
+.profile-name h4 {
+	font-family: Urbanist;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 42px;
+	text-align: left;
+	color: white;
+}
+
+.votes-number {
+	margin: 0px 41px;
+	text-align: center;
+}
+
+.profile-image {
+	text-align: center;
+}
+
+
+
+.dashbord-side {
+	background-image: url(../images/form.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px !important;
+	padding: 13px 24px 16px 17px;
+	height: 100%;
+}
+
+.sidebar-link h1 a {
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.sidebar-link h1 {
+	font-family: Urbanist;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	padding: 40px 0;
+}
+
+
+.sidebar-btn a {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 35px;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 8px 35px;
+	width: 100%;
+	border-radius: 11px;
+	transition-duration: 0.4s;
+}
+
+.sidebar-btn a:hover {
+	background-color: #fffbff;
+	color: black;
+}
+
+
+
+.sidebar-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 30px;
+	padding: 0px 0px 0px 20px;
+}
+
+.dashbord-wellcome h1 {
+	font-family: Urbanist;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 40px;
+	text-align: left;
+	color: white;
+	padding: 20px 0px;
+}
+
+.dashbord-wellcome p {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 40px;
+	text-align: left;
+	color: white;
+}
+
+
+
+
+.dashbord-wellcome {
+	background-image: url(../images/form.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 59px 21px;
+	padding: 13px 24px 194px 24px;
+}
+
+.cadidate-info {
+	background-image: url(../images/form.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 20px 10px;
+	padding: 32px 24px 21px 24px;
+}
+
+.student-list-btn a {
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	color: #000000;
+	background-color: #fffbff;
+	padding: 12px 25px;
+	margin: 0px 13px;
+	border-radius: 12px;
+	text-decoration: none;
+}
+
+.student-list-btn {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.info-conform-btn {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.info-conform-btn a {
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	color: #000000;
+	background-color: #fffbff;
+	padding: 12px 35px;
+	margin: 13px 13px;
+	border-radius: 12px;
+	text-decoration: none;
+}
+
+.info-group input {
+	width: 70%;
+	background: transparent;
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	text-align: left;
+	padding: 14px 26px;
+	margin: 10px 0px;
+}
+
+.info-group input::placeholder {
+	color: #fffbff;
+}
+
+
+.dash-border {
+	border: 1px solid white;
+}
+
+
+.form-border {
+	border: 1px solid white;
+	margin: 43px 44px 47px 44px;
+	padding: 48px 33px 51px 33px;
+}
+
+.info-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-form {
+	margin: 0px 0px;
+}
+
+.voter-cards {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 21px 21px;
+	border-radius: 12px;
+	margin: 10px 0;
+}
+
+
+.voter-cards img {
+	width: 34%;
+}
+
+.voter-cards h4 {
+	font-family: Urbanist;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 39px;
+	text-align: center;
+	color: black;
+	padding: 10px 0 0;
+}
+
+.voter-cards p {
+	font-family: Urbanist;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 11px;
+	text-align: center;
+}
+
+.total-vote p span {
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: center;
+
+}
+
+.total-vote h6 {
+	font-family: Urbanist;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 35px;
+	text-align: left;
+
+}
+
+.total-vote {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	padding: 25px 0px;
+}
+
+.result-cr-border {
+	border: 1px solid white;
+}
+
+
+.result-border {
+	border: 1px solid white;
+	margin: 37px 44px 37px 44px;
+	padding: 17px 33px 19px 33px;
+}
+
+.electon-data h1{
+	font-family: Urbanist;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 64px;
+	text-align: center;
+	color: #fffbff;
+	padding: 15px 101px;
+}
+
+.electon-data p{
+	font-family: Urbanist;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10px 68px;
+	margin-bottom: 66px;
+}
+
+
+
+.election-border {
+	border: 1px solid white;
+	margin: 37px 44px 37px 44px;
+	padding: 59px 33px 49px 33px;
+}
+
+
+
+.voter-btn {
+	/* text-align: center; */
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+.voter-btn a {
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	color: #000000;
+	background-color: #fffbff;
+	padding: 16px 98px;
+	margin: 13px 13px;
+	border-radius: 12px;
+	text-decoration: none;
+	/* width: 83% !important; */
+}
+
+a.vote-vrifi {
+	background: transparent;
+	border: 1px solid white;
+    color: #FFFFFF;
+}
+
+.voters-border{
+	border: 1px solid white;
+	padding: 25px 8px;
+}
+
+.voter-persnal-btn a{
+	font-family: Urbanist;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	color: #000000;
+	background-color: #fffbff;
+	padding: 12px 25px;
+	margin: 13px 13px;
+	border-radius: 12px;
+	text-decoration: none;
+}
+.voter-persnal-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+    border: 1px solid white;
+    margin: 20px 14px 14px 14px;
+    border-radius: 10px;
+}
+
+
+.voter-vote input {
+	font-family: Urbanist;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 35px;
+	text-align: left;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #fffbff;
+	margin: 14px 0px;
+	display: inline-block;
+}
