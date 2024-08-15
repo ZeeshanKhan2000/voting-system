@@ -41,16 +41,37 @@ ul {
 }
 
 
-.descktop-one-sect {
+/* .descktop-one-sect {
 	background-image: url(../images/desktop.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	/* height: 100vh; */
+	height: 100vh;
 	opacity: 0.5;
 	background-color: black;
+} */
+
+
+.descktop-one-sect {
+	position: relative;
+	background-color: #000;
 }
+
+.descktop-one-sect::before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	opacity: 0.6;
+	background: url("../images/desktop.png") no-repeat center center;
+	background-size: cover;
+}
+
 
 
 .descktop-one {
@@ -59,7 +80,18 @@ ul {
 	align-items: center;
 	justify-content: center;
 	padding: 78px 24px;
+	position: relative;
 }
+
+/* section.descktop-one-sect.dashbord-sect {
+	height: auto;
+}
+
+section.descktop-one-sect.profile-sect {
+	height: auto;
+} */
+
+
 
 
 
@@ -164,6 +196,7 @@ ul {
 	background-size: cover;
 	margin: 41px 0px;
 	padding: 13px 24px;
+	position: relative;
 }
 
 
@@ -323,6 +356,7 @@ ul {
 	margin: 0px !important;
 	padding: 13px 24px 16px 17px;
 	height: 100%;
+	position: relative;
 }
 
 .sidebar-link h1 a {
@@ -402,6 +436,7 @@ ul {
 	background-size: cover;
 	margin: 59px 21px;
 	padding: 13px 24px 194px 24px;
+	position: relative;
 }
 
 .cadidate-info {
@@ -411,6 +446,7 @@ ul {
 	background-size: cover;
 	margin: 20px 10px;
 	padding: 32px 24px 21px 24px;
+	position: relative;
 }
 
 .student-list-btn a {
@@ -557,7 +593,7 @@ ul {
 	padding: 17px 33px 19px 33px;
 }
 
-.electon-data h1{
+.electon-data h1 {
 	font-family: Urbanist;
 	font-size: 44px;
 	font-weight: 700;
@@ -567,7 +603,7 @@ ul {
 	padding: 15px 101px;
 }
 
-.electon-data p{
+.electon-data p {
 	font-family: Urbanist;
 	font-size: 23px;
 	font-weight: 600;
@@ -593,6 +629,7 @@ ul {
 	margin-top: 30px;
 	margin-bottom: 45px;
 }
+
 .voter-btn a {
 	font-family: Urbanist;
 	font-size: 18px;
@@ -611,15 +648,15 @@ ul {
 a.vote-vrifi {
 	background: transparent;
 	border: 1px solid white;
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 
-.voters-border{
+.voters-border {
 	border: 1px solid white;
 	padding: 25px 8px;
 }
 
-.voter-persnal-btn a{
+.voter-persnal-btn a {
 	font-family: Urbanist;
 	font-size: 20px;
 	font-weight: 700;
@@ -632,14 +669,15 @@ a.vote-vrifi {
 	border-radius: 12px;
 	text-decoration: none;
 }
+
 .voter-persnal-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2px 20px;
-    border: 1px solid white;
-    margin: 20px 14px 14px 14px;
-    border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px 20px;
+	border: 1px solid white;
+	margin: 20px 14px 14px 14px;
+	border-radius: 10px;
 }
 
 
@@ -654,4 +692,14 @@ a.vote-vrifi {
 	border-bottom: 2px solid #fffbff;
 	margin: 14px 0px;
 	display: inline-block;
+}
+
+a.active {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.descktop-one a:hover{
+	color: #fffbff;
+	background-color: #0b5ed7;
 }
