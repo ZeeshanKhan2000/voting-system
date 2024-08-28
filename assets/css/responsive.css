@@ -1,5 +1,778 @@
 @media (max-width: 1200px){}
-@media (max-width: 1025px){}
-@media (max-width: 768px){}
-@media (max-width: 576px){}
-@media (max-width: 320px){}
+@media (max-width: 1024px){
+    .sidebar-btn a {
+        font-family: Urbanist;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding: 8px 18px;
+        width: 100%;
+        border-radius: 11px;
+        transition-duration: 0.4s;
+    }
+
+    /* .dashbord-wellcome {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 38px 8px;
+        padding: 13px 15px 74px 15px;
+        position: relative;
+    }
+
+    .dashbord-wellcome p {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        color: white;
+    }
+
+    .dashbord-wellcome h1 {
+        font-family: Urbanist;
+        font-size: 39px;
+        font-weight: 800;
+        line-height: 24px;
+        text-align: left;
+        color: white;
+        padding: 20px 0px;
+    } */
+
+    a.active {
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .voter-btn a {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 16px 78px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+        /* width: 83% !important; */
+    }
+
+    .voter-persnal-info {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 26px 20px;
+        border: 2px solid white;
+        margin: 20px 14px 14px 14px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .descktop-one h1 {
+        font-family: Urbanist;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 65px;
+       
+    }
+
+    .descktop-one p {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+        color: white;
+        padding: 16px 0px 16px 2px;
+    }
+
+    .descktop-one {
+      
+        padding: 78px 1px;
+        position: relative;
+    }
+
+    .descktop-one a {
+       
+        padding: 7px 40px;
+       
+        border-radius: 20px;
+        width: 50%;
+        margin: 5px 0px;
+    }
+
+    .descktop-one h6 {
+        font-family: Urbanist;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        color: white;
+        padding: 25px 0px;
+    }
+
+    .sidebar-btn a {
+        font-family: Urbanist;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding: 8px 18px;
+        width: 100%;
+        border-radius: 11px;
+        transition-duration: 0.4s;
+    }
+
+    .dashbord-wellcome {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 38px 8px;
+        padding: 13px 15px 74px 15px;
+        position: relative;
+    }
+
+    .dashbord-wellcome p {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        color: white;
+    }
+
+    .dashbord-wellcome h1 {
+        font-family: Urbanist;
+        font-size: 39px;
+        font-weight: 800;
+        line-height: 24px;
+        text-align: left;
+        color: white;
+        padding: 20px 0px;
+    }
+
+
+    a.active {
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .cadidate-info {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 26px 1px;
+        padding: 3px 0px 21px 0px;
+        position: relative;
+    }
+
+    .voter-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 14px 4px;
+        margin: 12px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+        /* width: 83% !important; */
+    }
+
+
+
+    .voter-persnal-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 3px;
+        border: 1px solid white;
+        margin: 20px 14px 14px 14px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+
+    .voter-persnal-btn a {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 11px 15px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .result-border {
+        border: 1px solid white;
+        margin: 0px 0px 0px 0px;
+        padding: 17px 0px 19px 0px;
+    }
+
+    .election-border {
+        border: 1px solid white;
+        margin: 0;
+        padding: 0 0 37px 0;
+    }
+
+    .electon-data h1 {
+        font-family: Urbanist;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+        color: #fffbff;
+        padding: 15px 50px;
+    }
+    .electon-data p {
+        font-family: Urbanist;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 10px 32px;
+        margin-bottom: 61px;
+    }
+    .profile-name label {
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .profile-name h4 {
+        font-family: Urbanist;
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .candidate-votes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 4px;
+    }
+
+    .student-votes {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin: 20px 1px;
+    }
+}
+
+
+
+@media (max-width: 576px){
+    .descktop-one h1 {
+        font-family: Urbanist;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 65px;
+       
+    }
+
+    .descktop-one p {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+        color: white;
+        padding: 16px 0px 16px 2px;
+    }
+
+    .descktop-one {
+      
+        padding: 78px 1px;
+        position: relative;
+    }
+
+    .descktop-one a {
+       
+        padding: 7px 40px;
+       
+        border-radius: 20px;
+        width: 85%;
+        margin: 5px 0px;
+    }
+
+    .descktop-one h6 {
+        font-family: Urbanist;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        color: white;
+        padding: 25px 0px;
+    }
+
+    .dashbord-wellcome {
+      
+        margin: 59px 0px;
+        padding: 13px 15px 63px 15px;
+        position: relative;
+    }
+    a.active {
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .cadidate-info {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 26px 1px;
+        padding: 3px 0px 21px 0px;
+        position: relative;
+    }
+
+    .voter-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 14px 4px;
+        margin: 12px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+        /* width: 83% !important; */
+    }
+
+
+
+    .voter-persnal-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 3px;
+        border: 1px solid white;
+        margin: 20px 14px 14px 14px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+
+    .voter-persnal-btn a {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 11px 15px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .student-list-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 12px 9px;
+        margin: 0px 3px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .form-border {
+        border: aliceblue;
+        margin: 43px 0px 1px 0px;
+        padding: 0px 0px 51px 1px;
+    }
+
+    .info-group input {
+        width: 100%;
+        background: transparent;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 35px;
+        text-align: left;
+        padding: 14px 26px;
+        margin: 10px 0px;
+    }
+
+    .info-conform-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 12px 35px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .result-border {
+        border: 1px solid white;
+        margin: 0px 0px 0px 1px;
+        padding: 0px 0px 0px 0px;
+    }
+    .electon-data h1 {
+        font-family: Urbanist;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 46px;
+        text-align: center;
+        color: #fffbff;
+        padding: 15px 10px;
+    }
+
+    .election-border {
+        border: 1px solid white;
+        margin: 0;
+        padding: 3px 0px 22px 0px;
+    }
+    .electon-data p {
+        font-family: Urbanist;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px 9px;
+        margin-bottom: 66px;
+    }
+
+    .info-conform-btn.election-btn a {
+        padding: 10px 11px;
+        font-size: 14px;
+        margin: 0 0;
+    }
+    .profile-name label {
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .profile-name h4 {
+        font-family: Urbanist;
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .candidate-votes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 4px;
+    }
+
+    .student-votes {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin: 20px 1px;
+    }
+}
+
+
+
+
+@media (max-width: 375px){
+    .descktop-one h1 {
+        font-family: Urbanist;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 65px;
+       
+    }
+
+    .descktop-one p {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+        color: white;
+        padding: 16px 0px 16px 2px;
+    }
+
+    .descktop-one {
+      
+        padding: 78px 1px;
+        position: relative;
+    }
+
+    .descktop-one a {
+       
+        padding: 7px 40px;
+       
+        border-radius: 20px;
+        width: 85%;
+        margin: 5px 0px;
+    }
+
+    .descktop-one h6 {
+        font-family: Urbanist;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        color: white;
+        padding: 25px 0px;
+    }
+
+
+    .dashbord-wellcome {
+      
+        margin: 59px 0px;
+        padding: 13px 15px 63px 15px;
+        position: relative;
+    }
+
+    a.active {
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .cadidate-info {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 26px 1px;
+        padding: 3px 0px 21px 0px;
+        position: relative;
+    }
+
+    .voter-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 14px 4px;
+        margin: 12px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+        /* width: 83% !important; */
+    }
+
+
+
+    .voter-persnal-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 3px;
+        border: 1px solid white;
+        margin: 20px 14px 14px 14px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+
+    .voter-persnal-btn a {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 11px 15px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+
+    }
+
+    .student-list-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 12px 9px;
+        margin: 0px 3px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .form-border {
+        border: aliceblue;
+        margin: 43px 0px 1px 0px;
+        padding: 0px 0px 51px 1px;
+    }
+
+    .info-group input {
+        width: 100%;
+        background: transparent;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 35px;
+        text-align: left;
+        padding: 14px 26px;
+        margin: 10px 0px;
+    }
+
+    .info-conform-btn a {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        background-color: #fffbff;
+        padding: 12px 35px;
+        margin: 13px 13px;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+    .result-border {
+        border: 1px solid white;
+        margin: 0px 0px 0px 1px;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    .cadidate-info {
+        background-image: url(../images/form.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 26px 1px;
+        padding: 3px 0px 0 0px;
+        position: relative;
+    }
+
+    .electon-data h1 {
+        font-family: Urbanist;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 46px;
+        text-align: center;
+        color: #fffbff;
+        padding: 15px 10px;
+    }
+
+    .election-border {
+        border: 1px solid white;
+        margin: 0;
+        padding: 3px 0px 22px 0px;
+    }
+    .electon-data p {
+        font-family: Urbanist;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px 9px;
+        margin-bottom: 66px;
+    }
+
+    .info-conform-btn.election-btn a {
+        padding: 10px 11px;
+        font-size: 14px;
+        margin: 0 0;
+    }
+    .student-profle {
+        padding: 10px 0px;
+    }
+    .candidate-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 7px;
+    }
+
+    .profile-name label {
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .profile-name h4 {
+        font-family: Urbanist;
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+    }
+
+    .candidate-votes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 4px;
+    }
+
+    .student-votes {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin: 20px 1px;
+    }
+
+
+
+
+
+
+
+
+
+}
